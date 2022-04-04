@@ -1,0 +1,1 @@
+web: mkdir -p ~/.streamlit && echo -e "[server]\nport=$PORT\nenableCORS=false\nheadless=true\n" >~/.streamlit/config.toml && streamlit run app.py
